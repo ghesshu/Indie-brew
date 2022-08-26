@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.page-1{
+    background: radial-gradient(circle at top left, #ebcbf7 10%, #fcf3ef, #fdfcf9 40%);
+    background-repeat: no-repeat;
+    /* background-size: 480px; */
+}
+
+.page-2{
+    background: linear-gradient( #fdfcf9, #ebcbf7);
+}
+
+.mm{
+    background: radial-gradient(circle at top left, #fdfcf9 , #fcf3ef);
+    position: fixed;
+    inset: 0 0 0 50%;
+    border-radius: 20px 0px 0px 20px;
+
+}
+
+
+
+.fadeIn{ animation: fade 1s; }
+
+
+@keyframes fade {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
