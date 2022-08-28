@@ -15,8 +15,8 @@
 .mm{
     background: radial-gradient(circle at top left, #fdfcf9 , #fcf3ef);
     position: fixed;
-    inset: 0 0 0 50%;
-    border-radius: 20px 0px 0px 20px;
+    inset: 0 0 0 0%;
+    border-radius: 0px 0px 0px 0px;
 
 }
 

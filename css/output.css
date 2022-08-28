@@ -629,10 +629,6 @@ video {
   max-width: 32rem;
 }
 
-.transform {
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
 .flex-col {
   flex-direction: column;
 }
@@ -828,14 +824,14 @@ video {
   text-align: left;
 }
 
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
-}
-
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
 }
 
 .text-3xl {
@@ -881,14 +877,6 @@ video {
   opacity: 0.8;
 }
 
-.transition {
-  transition-property: color, background-color, border-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-text-decoration-color, -webkit-backdrop-filter;
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-text-decoration-color, -webkit-backdrop-filter;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 150ms;
-}
-
 .page-1{
   background: radial-gradient(circle at top left, #ebcbf7 10%, #fcf3ef, #fdfcf9 40%);
   background-repeat: no-repeat;
@@ -902,8 +890,8 @@ video {
 .mm{
   background: radial-gradient(circle at top left, #fdfcf9 , #fcf3ef);
   position: fixed;
-  inset: 0 0 0 50%;
-  border-radius: 20px 0px 0px 20px;
+  inset: 0 0 0 0%;
+  border-radius: 0px 0px 0px 0px;
 }
 
 .fadeIn{
@@ -931,24 +919,9 @@ video {
   }
 }
 
-.hover\:-translate-y-1:hover {
-  --tw-translate-y: -0.25rem;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
 .hover\:underline:hover {
   -webkit-text-decoration-line: underline;
           text-decoration-line: underline;
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .motion-reduce\:transition-none {
-    transition-property: none;
-  }
-
-  .motion-reduce\:hover\:transform-none:hover {
-    transform: none;
-  }
 }
 
 @media (min-width: 768px) {
