@@ -26,7 +26,7 @@ This is a Landing page for Indie-brew
 ### Links
 
 - Solution URL: (https://github.com/ghesshu/Manage-Landing-Page-Master)
-- Live Site URL: (https://manage-landing-page-master-ghesshu.vercel.app/)
+- Live Site URL: (https://indie-brew-beta.vercel.app/)
 
 
 ### Built with
